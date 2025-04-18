@@ -3,6 +3,12 @@
 
 this repository is a boilerplate codefor starting up electron configured with react , tailwind css and vite.
 
+## Screenshots
+
+![App Screenshot](https://github.com/code-with-godie/electron-starter/blob/main/Screenshot%202025-04-18%20151850.png?raw=true)
+
+![App Screenshot](https://github.com/code-with-godie/electron-starter/blob/main/Screenshot%202025-04-18%20151901.png?raw=true)
+
 
 
 ## 🚀 About Me
@@ -50,3 +56,5 @@ linux appImage
 ```bash
   npm run dist:linux
 ```
+
+
