@@ -1,0 +1,25 @@
+@import "tailwindcss";
+* {
+  /* padding: 0;
+  margin: 0; */
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  @apply bg-gray-900;
+}
+
+body {
+  @apply text-white;
+}
+::-webkit-scrollbar {
+  @apply w-2 h-2;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(179, 177, 177, 0.644);
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.265);
+}
