@@ -1,16 +1,52 @@
-# Electron Course
 
-This is the example code from the following freeCodeCamp course: <ToBeDefined></ToBeDefined>
+# Electron + react + tailwind with vite starter
 
-It tackles setting up an electron app that displays system resource usages for your CPU, RAM and File-System
-- using react and typescript
-- with typesafe IPC communication
-- with a hide-to-tray functionality
-- with a custom menu-bar
-- with a custom window-frame
+this repository is a boilerplate codefor starting up electron configured with react , tailwind css and vite.
 
-It's tested using both E2E- (Playwright) and Unit-Tests (Vitest)
 
-If you find run into any errors please post them as an issue in this Repository.
 
-Have a nice day :)
+## 🚀 About Me
+I'm a full stack developer...
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://code-with-godie.vercel.app)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/code-with-godie)
+
+
+
+## 🛠 Skills
+Electron
+
+React
+
+TailwindCSS
+
+
+
+## Installation
+
+Install dependecies with npm
+
+```bash
+  npm install 
+```
+running the development server
+```bash
+  npm run dev
+```
+
+generating setup
+
+windows msi
+```bash
+  npm run dist:win
+```
+mac dmg
+```bash
+  npm run dist:mac
+```
+linux appImage
+```bash
+  npm run dist:linux
+```
